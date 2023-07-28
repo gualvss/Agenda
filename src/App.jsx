@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Olá Mundo</h1>
+        <button className="bg-blue-500 text-black">Olá Mundo</button>
       </div>
     </>
   )
