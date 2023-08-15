@@ -37,8 +37,6 @@ function App() {
       <img class="h-10 mx-2" src="/epic.png" title="Imagem centralizada" width={50} height={100}/>
       </div>
       <hr class="w-full border-t  border-white"/>
-    
-    
     </div>
 
 
