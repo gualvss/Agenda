@@ -108,9 +108,7 @@ function App() {
 
 <div class="flex flex-row justify-center items-center gap-10">
 
-
-
-<div class=" -mb-2">
+  <div class=" -mb-2">
       <img src="/img 1.png" alt="Capa do Jogo 1" class="w-[360px] h-[280px]"/>
       <div class="p-1 text-center">
         <h2 class="text-white text-lg font-bold hover:underline">TinyBuild Everything Must Go Sale</h2>
@@ -135,9 +133,6 @@ function App() {
         <p class="text-white opacity-70 font-medium mb-2">Thu, May 25, 2023</p>
      </div>
   </div>
-
-  
-
   
 </div>
 
