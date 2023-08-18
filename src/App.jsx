@@ -1,8 +1,10 @@
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai" ;
+
 function App() {
   
   return (
     <>
-  <body class= "w-full h-full bg-black">
+  <body class= "w-full bg-black">
         
     <div class= "bg-gray-300 p-4 fixed w-full flex items-center justify-between">
      
@@ -106,8 +108,20 @@ function App() {
 <br />
 <br />
 
-<div class="flex flex-row justify-center items-center gap-10">
+<section class="w-full flex justify-center">
+<div class="bg-gray-900 w-[90%] flex flex-row justify-center">
+  
+  <div class="text-white h-full flex items-center ">
+<AiOutlineLeft size={50}/> 
+</div>
 
+<br />
+<br />
+<br />
+
+<div class="flex flex-col">
+<div class="flex flex-row justify-center items-center gap-10">
+  
   <div class=" -mb-2">
       <img src="/img 1.png" alt="Capa do Jogo 1" class="w-[360px] h-[280px]"/>
       <div class="p-1 text-center">
@@ -133,11 +147,49 @@ function App() {
         <p class="text-white opacity-70 font-medium mb-2">Thu, May 25, 2023</p>
      </div>
   </div>
-  
+
 </div>
 
+<br />
 
+<div class="flex flex-row justify-center items-center gap-10">
 
+  <div class=" -mb-2">
+      <img src="/img 4.png" alt="Capa do Jogo 2" class="w-[360px] h-[280px]"/>
+      <div class="p-1 text-center">
+        <h2 class="text-white text-lg font-bold hover:underline -mb-1">Curve Games Publisher Sale 2023,</h2>
+        <p class="text-white text-lg font-bold mb-1 hover:underline">Grab a free game on us</p>
+        <p class="text-white opacity-70 font-medium mb-2">Thu, May 25, 2023</p>
+     </div>
+  
+  </div>
+
+  <div class=" -mb-2">
+      <img src="/img 5.jpg" alt="Capa do Jogo 2" class="w-[360px] h-[280px]"/>
+      <div class="p-1 text-center">
+        <h2 class="text-white text-lg font-bold hover:underline">The Quintessential  Yogscast Games</h2>
+        <p class="text-white text-lg font-bold mb-1 hover:underline">Sale - Featuring Landlord's Super 1.0...</p>
+        <p class="text-white opacity-70 font-medium mb-2">Thu, May 25, 2023</p>
+     </div>
+   </div>
+
+   <div class=" mb-6">
+      <img src="/img 6.jpg" alt="Capa do Jogo 2" class="w-[360px] h-[280px]"/>
+      <div class="p-1 text-center">
+        <h2 class="text-white text-lg font-bold hover:underline">the Indle Houses & Girls Make Games</h2>
+        <p class="text-white opacity-70 font-medium mb-2">Thu, May 25, 2023</p>
+      </div>
+   </div>
+  </div>
+
+</div>
+
+<div class="text-white h-full flex items-center w-[100px]">
+<AiOutlineRight size={50}/>
+</div>
+</div>
+
+</section>
  
  </body>
 </>
