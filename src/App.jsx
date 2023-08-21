@@ -119,7 +119,7 @@ function App() {
 
               <div class="w-full flex flex-row justify-between text-white">
                 <div class="text-xl font-medium">SPECIAL EVENTS</div>
-                <button class="bg-gray-700 font-base px-2 py-1 rounded-md hover:underline">View All Events</button>
+                <button class="bg-gray-700 font-base px-2 py-1 rounded-md hover:underline mb-3">View All Events</button>
               </div>
 
               <div class="flex flex-row justify-center items-center gap-10">
