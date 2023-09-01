@@ -9,7 +9,7 @@ function App() {
 
       <body class="w-full bg-black">
 
-        <Cabeçalho/>
+        <Cabeçalho />
 
         <div class=" tablet-large:flex-row flex-col w-full flex justify-center items-center space-x-[12px] pt-[120px]">
           <div class="flex flex-row gap-8 p-1">
@@ -94,7 +94,7 @@ function App() {
               </div>
 
               <div class=" tablet-large:flex flex-row justify-center items-center gap-10 mb-7">
-                
+
                 <div class=" -mb-2">
                   <img src="/img 1.png" alt="Capa do Jogo 1" class="w-[360px] h-[280px]" />
                   <div class="p-1 text-center">
@@ -120,11 +120,11 @@ function App() {
                     <p class="text-white opacity-70 font-medium mb-1">Thu, May 25, 2023</p>
                   </div>
                 </div>
-                </div>
-              
+              </div>
+
 
               <div class="tablet-large:flex flex-row justify-center items-center gap-11 mb-7">
-                
+
                 <div class=" -mb-2">
                   <img src="/img 4.png" alt="Capa do Jogo 4" class="w-[362px] h-[280px]" />
                   <div class="p-1 text-center">
@@ -152,7 +152,7 @@ function App() {
                 </div>
               </div>
             </div>
-            
+
             <div class=" invisible tablet-large:visible text-white h-full flex items-center p-2">
               <AiOutlineRight size={50} />
             </div>
