@@ -13,7 +13,7 @@ function Cabeçalho() {
                 <div class="text-black hover:underline">صفحه اصلی</div>
                 
                 <div class="visible tablet-large:hidden flex items-center">
-                <AiOutlineBars size={30}/>
+                <AiOutlineBars size={25}/>
                 </div>
             </div>
         </div >

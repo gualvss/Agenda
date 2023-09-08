@@ -2,6 +2,8 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 import Cabeçalho from "./Components/Cabeçalho";
 import CardsGames from "./Components/CardsGames";
+import CardsEventos from "./Components/CardsEventos";
+
 function App() {
 
   return (
@@ -16,7 +18,7 @@ function App() {
             <img src="/epic.svg" alt="" width={60} height={100} />
             <img src="/Steam.png" alt="" width={60} height={100} />
           </div>
-          <div class="flex flex-row pe-2 ">
+          <div class="flex flex-row pe-2">
             <img src="/Xbox.png" alt="" width={100} height={100} />
             <img src="/playstation.jpg" alt="" width={100} height={100} />
           </div>
@@ -29,36 +31,36 @@ function App() {
           </div>
           <hr class="w-full border-t border-white" />
         </div>
-        
+
         <div class="tablet-large:flex-row flex-col flex justify-center items-center gap-20">
-        <CardsGames
-        pathImg="/GTAV.png"
-        name="Grand Theft Auto V"
-        subname="Premium Edition"
-        price="R$ 119,90"
-        />
+          <CardsGames
+            pathImg="/GTAV.png"
+            name="Grand Theft Auto V"
+            subname="Premium Edition"
+            price="R$ 119,90"
+          />
 
-        <CardsGames
-        pathImg="/fifa23.jpg"
-        name="EA SPORTS FIFA 23"
-        subname="Standard Edition"
-        price="R$ 199,90"
-        />
+          <CardsGames
+            pathImg="/fifa23.jpg"
+            name="EA SPORTS FIFA 23"
+            subname="Standard Edition"
+            price="R$ 199,90"
+          />
 
-        <CardsGames
-        pathImg="/Redead.jpg"
-        name="Red Dead Redemption II"
-        subname="Ultimate Edition"
-        price="R$ 249,90"
-        />
-      
-      <CardsGames
-        pathImg="/Cyberpunk.png"
-        name="CyberPunk 2077"
-        subname="Stardard Edition"
-        price="R$ 149,90"
-        />
-      </div>
+          <CardsGames
+            pathImg="/Redead.jpg"
+            name="Red Dead Redemption II"
+            subname="Ultimate Edition"
+            price="R$ 249,90"
+          />
+
+          <CardsGames
+            pathImg="/Cyberpunk.png"
+            name="CyberPunk 2077"
+            subname="Stardard Edition"
+            price="R$ 149,90"
+          />
+        </div>
 
         <div class="flex items-center justify-center mb-[35px] space-y-[50px]">
           <hr class="w-full border-t border-white -mb-12" />
@@ -82,61 +84,49 @@ function App() {
 
               <div class=" tablet-large:flex flex-row justify-center items-center gap-10 mb-7">
 
-                <div class=" -mb-2">
-                  <img src="/img 1.png" alt="Capa do Jogo 1" class="w-[360px] h-[280px]" />
-                  <div class="p-1 text-center">
-                    <h2 class="text-white text-lg font-bold hover:underline">TinyBuild Everything Must Go Sale</h2>
-                    <p class="text-white text-lg font-bold mb-1 hover:underline">Starts Now!</p>
-                    <p class="text-white opacity-70 font-medium mb-5">Fri, May 26, 2023</p>
-                  </div>
-                </div>
+                <CardsEventos
+                  pathImg="/img 1.png"
+                  name="TinyBuild Everything Must Go Sale"
+                  subname="Starts Now!"
+                  date="Fri, May 26, 2023"
+                />
 
-                <div class=" -mb-2">
-                  <img src="/img 2.jpg" alt="Capa do Jogo 2" class="w-[370px] h-[280px]" />
-                  <div class="p-1 text-center">
-                    <h2 class="text-white text-lg font-bold hover:underline">The Hello Neighbor Franchise Sale</h2>
-                    <p class="text-white text-lg font-bold mb-1 hover:underline">Live Now!</p>
-                    <p class="text-white opacity-70 font-medium mb-5">Thu, May 25, 2023</p>
-                  </div>
-                </div>
+                <CardsEventos
+                  pathImg="/img 2.jpg"
+                  name="The Hello Neighbor Franchise Sale -"
+                  subname="LIVE NOW!"
+                  date="Thu, May 25, 2023"
+                />
 
-                <div class=" mb-9">
-                  <img src="/img 3.png" alt="Capa do Jogo 3" class="w-[360px] h-[280px]" />
-                  <div class="p-1 text-center">
-                    <h2 class="text-white text-lg font-bold hover:underline">Jackbox Games Weekend Sale</h2>
-                    <p class="text-white opacity-70 font-medium mb-1">Thu, May 25, 2023</p>
-                  </div>
-                </div>
+                <CardsEventos
+                  pathImg="/img 3.png"
+                  name="Jackbox Games Weekend Sale"
+                  date="Thu, May 25, 2023"
+                />
               </div>
 
 
               <div class="tablet-large:flex flex-row justify-center items-center gap-11 mb-7">
 
-                <div class=" -mb-2">
-                  <img src="/img 4.png" alt="Capa do Jogo 4" class="w-[362px] h-[280px]" />
-                  <div class="p-1 text-center">
-                    <h2 class="text-white text-lg font-bold hover:underline -mb-1">Curve Games Publisher Sale 2023,</h2>
-                    <p class="text-white text-lg font-bold mb-1 hover:underline">Grab a free game on us</p>
-                    <p class="text-white opacity-70 font-medium mb-5">Thu, May 25, 2023</p>
-                  </div>
-                </div>
+                <CardsEventos
+                  pathImg="/img 4.png"
+                  name="Curve Games Publisher Sale 2023."
+                  subname="Grab a free game on us"
+                  date="Thu, May 25, 2023"
+                />
 
-                <div class=" -mb-3">
-                  <img src="/img 5.jpg" alt="Capa do Jogo 5" class="w-[365px] h-[280px]" />
-                  <div class="p-1 text-center">
-                    <h2 class="text-white text-lg font-bold hover:underline">The Quintessential  Yogscast Games</h2>
-                    <p class="text-white text-lg font-bold mb-1 hover:underline">Sale - Featuring Landlord's Super 1.0...</p>
-                    <p class="text-white opacity-70 font-medium mb-5">Thu, May 25, 2023</p>
-                  </div>
-                </div>
+                <CardsEventos
+                  pathImg="/img 5.jpg"
+                  name="The Quintessential Yogscast Games"
+                  subname="Sale - Featuring Landlord's Super 1.0"
+                  date="Thu, May 25, 2023"
+                />
 
-                <div class=" mb-6">
-                  <img src="/img 6.jpg" alt="Capa do Jogo 6" class="w-[360px] h-[280px]" />
-                  <div class="p-1 text-center">
-                    <h2 class="text-white text-lg font-bold hover:underline">the Indle Houses & Girls Make Games</h2>
-                    <p class="text-white opacity-70 font-medium mb-5">Thu, May 25, 2023</p>
-                  </div>
-                </div>
+                <CardsEventos
+                  pathImg="/img 6.jpg"
+                  name="The Indie Houses & Girls Make Games"
+                  date="Thu, May 25, 2023"
+                />
               </div>
             </div>
 
