@@ -54,15 +54,17 @@ function App() {
             price="R$ 249,90"
           />
 
-          <CardsGames
-            pathImg="/Cyberpunk.png"
-            name="CyberPunk 2077"
-            subname="Stardard Edition"
-            price="R$ 149,90"
-          />
+          <div class="pe-4">
+            <CardsGames
+              pathImg="/Cyberpunk.png"
+              name="CyberPunk 2077"
+              subname="Stardard Edition"
+              price="R$ 149,90"
+            />
+          </div>
         </div>
 
-        <div class="flex items-center justify-center mb-[35px] space-y-[50px]">
+        <div class="flex items-center justify-center mb-[20px] space-y-[50px]">
           <hr class="w-full border-t border-white -mb-12" />
           <div class="w-[145px] h-[70px] border rounded-full flex justify-center items-center">
             <img class="h-8" src="/Steam.png" title="Imagem centralizada" width={55} height={100} />
@@ -79,7 +81,7 @@ function App() {
             <div class="flex flex-col">
               <div class="w-full flex flex-row justify-between text-white">
                 <div class="text-xl font-medium">SPECIAL EVENTS</div>
-                <button class="bg-gray-700 font-base px-2 py-1 rounded-md hover:underline mb-4">View All Events</button>
+                <button class="bg-gray-700 font-base px-2 py-1 rounded-md hover:underline mb-5">View All Events</button>
               </div>
 
               <div class=" tablet-large:flex flex-row justify-center items-center gap-10 mb-7">
@@ -98,13 +100,14 @@ function App() {
                   date="Thu, May 25, 2023"
                 />
 
-                <CardsEventos
-                  pathImg="/img 3.png"
-                  name="Jackbox Games Weekend Sale"
-                  date="Thu, May 25, 2023"
-                />
+                <div class="mb-7">
+                  <CardsEventos
+                    pathImg="/img 3.png"
+                    name="Jackbox Games Weekend Sale"
+                    date="Thu, May 25, 2023"
+                  />
+                </div>
               </div>
-
 
               <div class="tablet-large:flex flex-row justify-center items-center gap-11 mb-7">
 
@@ -122,11 +125,13 @@ function App() {
                   date="Thu, May 25, 2023"
                 />
 
-                <CardsEventos
-                  pathImg="/img 6.jpg"
-                  name="The Indie Houses & Girls Make Games"
-                  date="Thu, May 25, 2023"
-                />
+                <div class="mb-7">
+                  <CardsEventos
+                    pathImg="/img 6.jpg"
+                    name="The Indie Houses & Girls Make Games"
+                    date="Thu, May 25, 2023"
+                  />
+                </div>
               </div>
             </div>
 
@@ -140,5 +145,4 @@ function App() {
     </>
   )
 }
-
 export default App
